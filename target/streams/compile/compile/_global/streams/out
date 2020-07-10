@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Shekhar Kareppananar\Documents\Play\play-samples-play-java-hello-world-tutorial\app\data\repository\KeyspaceRepository.java:6:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class CqlSession[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class data.repository.KeyspaceRepository[0m
+[0m[[0m[31merror[0m] [0m[0mCqlSession[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Shekhar Kareppananar\Documents\Play\play-samples-play-java-hello-world-tutorial\app\data\repository\KeyspaceRepository.java:8:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class CqlSession[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class data.repository.KeyspaceRepository[0m
+[0m[[0m[31merror[0m] [0m[0mCqlSession[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Shekhar Kareppananar\Documents\Play\play-samples-play-java-hello-world-tutorial\app\data\repository\KeyspaceRepository.java:13:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class CreateKeyspace[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class data.repository.KeyspaceRepository[0m
+[0m[[0m[31merror[0m] [0m[0mCreateKeyspace[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Shekhar Kareppananar\Documents\Play\play-samples-play-java-hello-world-tutorial\app\data\repository\KeyspaceRepository.java:15:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method withSimpleStrategy(int)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class com.datastax.driver.core.schemabuilder.CreateKeyspace[0m
+[0m[[0m[31merror[0m] [0m[0mSchemaBuilder.createKeyspace(keyspaceName)[0m
+[0m[[0m[31merror[0m] [0m[0m          .ifNotExists()[0m
+[0m[[0m[31merror[0m] [0m[0m          .withSimpleStrategy[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Shekhar Kareppananar\Documents\Play\play-samples-play-java-hello-world-tutorial\app\data\repository\KeyspaceRepository.java:21:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable CqlIdentifier[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class data.repository.KeyspaceRepository[0m
+[0m[[0m[31merror[0m] [0m[0mCqlIdentifier[0m

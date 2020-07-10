@@ -1,0 +1,9 @@
+2020-07-10 22:48:30,821 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2020-07-10 22:48:30,904 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev) (no global state)
+2020-07-10 22:48:32,911 [WARN] from com.datastax.driver.core.Cluster in application-akka.actor.default-dispatcher-6 - You listed localhost/0:0:0:0:0:0:0:1:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2020-07-10 22:48:33,203 [WARN] from com.datastax.driver.core.ReplicationStrategy$NetworkTopologyStrategy in application-akka.actor.default-dispatcher-6 - Error while computing token map for keyspace test with datacenter datacenter1: could not achieve replication factor 3 (found 1 replicas only), check your keyspace replication settings.

@@ -12,15 +12,15 @@ GET    /user                    	controllers.UserController.getUser
 #POST Request for CreateUser
 POST   /user                    	controllers.UserController.createUser
 #PUT Request for UpdateUser
-#PUT    /user                    	controllers.UserController.updateUser
+PUT    /user                    	controllers.UserController.updateUser
 #DELETE Request for DeleteUser
-#DELETE   /user                    	controllers.UserController.deleteUser
+DELETE   /user                    	controllers.UserController.deleteUser
 
 #GET Request for ReadGroup
-#GET    /group                    	controllers.GroupController.getGroup
-#POST    /group                    	controllers.GroupController.createGroup
-#PUT    /group                    	controllers.GroupController.updateGroup
-#DELETE    /group                    controllers.GroupController.deleteGroup
+GET    /group                    	controllers.GroupController.getGroup
+POST    /group                    	controllers.GroupController.createGroup
+PUT    /group                    	controllers.GroupController.updateGroup
+DELETE    /group                    controllers.GroupController.deleteGroup
 
 #POST Request for CreateUser
 #PUT Request for UpdateUser
